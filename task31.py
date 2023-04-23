@@ -5,4 +5,4 @@ def fib(n: int) -> int:
 
 
 n = int(input("Enter number n>=0: "))
-print(fib(n))
+print(f"Fibbonachi({n}) = {fib(n)}")
